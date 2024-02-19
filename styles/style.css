@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:wght@100..900&display=swap');
+
+.font-raleway{
+    font-family: raleway;
+}
+.font-inter{
+    font-family: inter;
+}
+.banner{
+    border-radius: 32px;
+background: linear-gradient(180.00deg, rgba(3, 7, 18, 0.5),rgba(3, 7, 18, 0) 100%),url('/images/banner.png');
+}
+.text-primary{
+   color: #03071299;
+}
+.heading-primary{
+    color:#030712 ;
+}
+.button{
+    height: 56px;
+    width: 110px;
+    color: 03071299;
+    background-color: #F7F8F8;
+    border-radius: 12px;
+}
