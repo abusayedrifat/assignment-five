@@ -50,7 +50,7 @@ for (const coach of coaches) {
       const updateSeat = seat - 1;
       seats.innerText = updateSeat;
         
-      //
+    
     
     })
    
@@ -67,40 +67,5 @@ document.getElementById('input-cupon').addEventListener('keyup', function (event
     }
 })
 
-// document.getElementById('next-btn').addEventListener('keyup', function () {
-//     const numberInput = event.target.value;
-//     const seatCount = event.target.value;
 
-
-
-// })
    
-
-
-
-
-
-
-
-
-
-
-//=======================================================================================================//
-
-                                         // All test scripts//
-
-
-
-
-// if (updatePrice > 2200) {
-             
-        
-
-//     const discountPrice = document.getElementById('grand-price');
-//          const grandPrice = updatePrice*0.15;
-//        const grandTotalPrice =  updatePrice - grandPrice; 
-//         discountPrice.innerText = grandTotalPrice + ' BDT';
-//  } 
-//  else {
-//     discountPrice.innerText = updatePrice + ' BDT';
-//  }
