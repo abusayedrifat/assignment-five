@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>E-Ticket</title>
+    <title>Ticket</title>
     <!-- daisy link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -16,88 +16,88 @@
     <header class="max-w-[1170px] mx-auto px-4 mb-28 lg:px-0 font-raleway">
         <!-- nav bar -->
         <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Destination</a></li>
-                            <li><a>Search</a></li>
-                        </ul>
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
                     </div>
-                    <a class="btn btn-ghost text-3xl lg:text-4xl font-extrabold"><span
-                            class="text-[#1DD100]">E</span>-BusTicket</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1 font-medium text-lg">
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a>Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Destination</a></li>
                         <li><a>Search</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end">
-                    <a
-                        class="btn px-7 bg-[#1DD1001A] border border-[#1DD10066] text-[#1DD100] text-lg lg:text-xl font-semibold lg:font-bold">
-                        Bus <img src="images/bus-icon.png" alt="" /></a>
-                </div>
+                <a class="btn btn-ghost text-3xl lg:text-4xl font-extrabold"><span
+                        class="text-[#1DD100]">E</span>-BusTicket</a>
             </div>
-        </nav>
-        <!-- banner -->
-        <div class="banner w-full h-[550px] mt-9">
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 font-medium text-lg">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a
+                    class="btn px-7 bg-[#1DD1001A] border border-[#1DD10066] text-[#1DD100] text-lg lg:text-xl font-semibold lg:font-bold">
+                    Bus <img src="images/bus-icon.png" alt="" /></a>
+            </div>
+        </div>
+    </nav>
+    <!-- banner -->
+    <div class="banner w-full h-[550px] mt-9">
             <div>
-                <h1
-                    class="text-white text-3xl lg:text-6xl font-extrabold text-center pt-20 leading-10 lg:leading-[80px]">
-                    End-to-End Travel with <br />
-                    <span class="text-[#1DD100] pt-6">Sayed Travel</span>
-                </h1>
-                <p class="mx-auto mt-6 text-white text-center lg:text-lg font-inter lg:w-[600px]">
-                    Welcome to our state-of-the-art e-bus ticket website, where seamless
-                    travel experiences begin!Whether you're a daily commuter.
-                </p>
-            </div>
-            <div class="flex justify-center">
-               <a href="#book-seat">
-                <button id="buy-ticket-btn"
-                class="btn mt-8 h-16 px-6 py-4 bg-[#1dd100] border-none font-extrabold text-lg lg:text-2xl">
-                Buy Ticket
-            </button>
-               </a>
+            <h1
+                class="text-white text-3xl lg:text-6xl font-extrabold text-center pt-20 leading-10 lg:leading-[80px]">
+                End-to-End Travel with <br />
+                <span class="text-[#1DD100] pt-6">Sayed Travel</span>
+            </h1>
+            <p class="mx-auto mt-6 text-white text-center lg:text-lg font-inter lg:w-[600px]">
+                Welcome to our state-of-the-art e-bus ticket website, where seamless
+                travel experiences begin!Whether you're a daily commuter.
+            </p>
+        </div>
+        <div class="flex justify-center">
+           <a href="#book-seat">
+            <button id="buy-ticket-btn"
+            class="btn mt-8 h-16 px-6 py-4 bg-[#1dd100] border-none font-extrabold text-lg lg:text-2xl">
+            Buy Ticket
+        </button>
+           </a>
+        </div>
+    </div>
+    <!-- banner box -->
+    <div class="flex flex-col justify-center gap-6 relative lg:bottom-16 lg:flex-row">
+        <div class="flex gap-3 bg-white justify-center p-8 border-b-[3px] rounded-xl border-[#1dd100]">
+            <img src="images/people.png" alt="" />
+            <div>
+                <h2 class="font-inter font-extrabold text-3xl">500K+</h2>
+                <p class="text-[#03071299]">Registered User</p>
             </div>
         </div>
-        <!-- banner box -->
-        <div class="flex flex-col justify-center gap-6 relative lg:bottom-16 lg:flex-row">
-            <div class="flex gap-3 bg-white justify-center p-8 border-b-[3px] rounded-xl border-[#1dd100]">
-                <img src="images/people.png" alt="" />
-                <div>
-                    <h2 class="font-inter font-extrabold text-3xl">500K+</h2>
-                    <p class="text-[#03071299]">Registered User</p>
-                </div>
-            </div>
-            <div class="flex gap-3 bg-white justify-center p-8 border-b-[3px] rounded-xl border-[#1dd100]">
-                <img src="images/ticket-cupon.png" alt="" />
-                <div>
-                    <h2 class="font-inter font-extrabold text-3xl">1.7 Lacks</h2>
-                    <p class="text-[#03071299]">Tickets sold</p>
-                </div>
-            </div>
-            <div class="flex gap-3 bg-white justify-center p-8 border-b-[3px] rounded-xl border-[#1dd100]">
-                <img src="images/stoppage.png" alt="" />
-                <div>
-                    <h2 class="font-inter font-extrabold text-3xl">80K+</h2>
-                    <p class="text-[#03071299]">Rental partners</p>
-                </div>
+        <div class="flex gap-3 bg-white justify-center p-8 border-b-[3px] rounded-xl border-[#1dd100]">
+            <img src="images/ticket-cupon.png" alt="" />
+            <div>
+                <h2 class="font-inter font-extrabold text-3xl">1.7 Lacks</h2>
+                <p class="text-[#03071299]">Tickets sold</p>
             </div>
         </div>
+        <div class="flex gap-3 bg-white justify-center p-8 border-b-[3px] rounded-xl border-[#1dd100]">
+            <img src="images/stoppage.png" alt="" />
+            <div>
+                <h2 class="font-inter font-extrabold text-3xl">80K+</h2>
+                <p class="text-[#03071299]">Rental partners</p>
+            </div>
+        </div>
+    </div>
     </header>
 
     <!-- ---------------------------------------- -->
@@ -239,12 +239,12 @@
                                 <img src="images/driving-wheel.svg" alt="" />
                             </button>
                         </div>
-                        <div class="flex flex-col gap-6 m">
+                        <div id="button-container" class="flex flex-col gap-6 m" >
                             <!-- A -->
                             <div class="flex justify-between">
                                 <div class="flex gap-6 items-center">
                                     <span>A</span>
-                                    <button class="button btn coach coach">A1</button>
+                                    <button class="button btn coach ">A1</button>
                                     <button class="button btn coach">A2</button>
                                 </div>
                                 <div class="flex gap-6">
@@ -406,7 +406,7 @@
                                     </div>
                                 </div>
                                 <!-- cupon apply -->
-                                <div class="bg-white rounded-xl mt-3 p-2">
+                                <div id="cupon-field" class="bg-white rounded-xl mt-3 p-2">
                                     <div class="flex justify-between">
                                         <input id="input-cupon" class="outline-none pl-4" type="text"
                                             placeholder="Have any cupon?" />
@@ -449,8 +449,8 @@
                                 <div>
                                     <!-- The button to open modal -->
                                     <div>
-                                        <a href="#my_modal_8" id="next-btn" class="btn w-full h-14 mt-4 text-center rounded-xl bg-[#1dd100] text-white font-extrabold text-xl">
-                                             Next
+                                        <a href="#my_modal_8" id="next-btn" class="btn w-full h-14 mt-4 text-center rounded-xl bg-[#1dd100] text-white font-extrabold text-xl" aria-disabled="true">
+                                        Next
 
                                         </a>
                                     </div>
